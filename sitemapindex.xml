@@ -6,47 +6,19 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/authors/roberto-alsina.xml</loc>
-  <lastmod>2016-08-30T12:38:00Z</lastmod>
+  <loc>https://rabernat.github.io/aospy-workshop/galleries/demo/rss.xml</loc>
+  <lastmod>2016-08-30T13:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/authors/ryan-abernathey.xml</loc>
-  <lastmod>2016-08-30T13:38:00Z</lastmod>
+  <loc>https://rabernat.github.io/aospy-workshop/galleries/rss.xml</loc>
+  <lastmod>2016-08-30T13:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/blog.xml</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
+  <loc>https://rabernat.github.io/aospy-workshop/rss.xml</loc>
+  <lastmod>2016-08-30T13:59:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/cat_nikola.xml</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/demo.xml</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/nikola.xml</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/python.xml</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/galleries/demo/rss.xml</loc>
-  <lastmod>2016-08-30T13:54:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/galleries/rss.xml</loc>
-  <lastmod>2016-08-30T13:54:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/rss.xml</loc>
-  <lastmod>2016-08-30T13:54:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>http://rabernat.github.io/aospy-workshop/sitemap.xml</loc>
-  <lastmod>2016-08-30T13:54:00Z</lastmod>
+  <loc>https://rabernat.github.io/aospy-workshop/sitemap.xml</loc>
+  <lastmod>2016-08-30T13:59:00Z</lastmod>
  </sitemap>
 </sitemapindex>

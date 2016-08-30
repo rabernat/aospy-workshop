@@ -6,143 +6,103 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/</loc>
   <lastmod>2016-08-30T12:38:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/2012/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/2016/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/2016/</loc>
   <lastmod>2016-08-30T12:38:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/archive.html</loc>
-  <lastmod>2016-08-30T13:54:00Z</lastmod>
+  <loc>https://rabernat.github.io/aospy-workshop/archive.html</loc>
+  <lastmod>2016-08-30T13:59:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/authors/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/categories/</loc>
+  <lastmod>2016-08-30T13:56:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rabernat.github.io/aospy-workshop/galleries/</loc>
+  <lastmod>2016-08-30T01:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rabernat.github.io/aospy-workshop/galleries/demo/</loc>
+  <lastmod>2016-08-30T01:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rabernat.github.io/aospy-workshop/listings/</loc>
+  <lastmod>2016-08-30T01:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rabernat.github.io/aospy-workshop/listings/__pycache__/</loc>
+  <lastmod>2016-08-30T01:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rabernat.github.io/aospy-workshop/listings/hello.py.html</loc>
+  <lastmod>2016-08-30T13:59:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://rabernat.github.io/aospy-workshop/posts/workshop-registration/</loc>
   <lastmod>2016-08-30T12:38:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/authors/roberto-alsina/</loc>
-  <lastmod>2016-08-30T12:38:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/authors/ryan-abernathey/</loc>
-  <lastmod>2016-08-30T12:38:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/about-nikola/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/blog/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/bootstrap-demo/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/cat_nikola/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/charts/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/demo/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/creating-a-theme/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/nikola/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/dr-nikolas-vendetta/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/categories/python/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/extending/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/galleries/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/handbook/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/galleries/demo/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/internals/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/listings/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/listings-demo/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/listings/__pycache__/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/path-handlers/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/listings/hello.py.html</loc>
-  <lastmod>2016-08-30T13:54:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/posts/welcome-to-nikola/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/quickref/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/posts/workshop-registration/</loc>
-  <lastmod>2016-08-30T12:38:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/about-nikola/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/quickstart/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/bootstrap-demo/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/slides-demo/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/charts/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/social_buttons/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
  <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/creating-a-theme/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/dr-nikolas-vendetta/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/extending/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/handbook/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/internals/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/listings-demo/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/path-handlers/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/quickref/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/quickstart/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/slides-demo/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/social_buttons/</loc>
-  <lastmod>2016-08-30T01:14:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rabernat.github.io/aospy-workshop/stories/theming/</loc>
+  <loc>https://rabernat.github.io/aospy-workshop/stories/theming/</loc>
   <lastmod>2016-08-30T01:14:00Z</lastmod>
  </url>
 </urlset>
