@@ -21,10 +21,10 @@ BLOG_AUTHOR = "Ryan Abernathey"  # (translatable)
 BLOG_TITLE = "Columbia AOSPY Workshop"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://rabernat.github.io/aospy-workshop/"
+SITE_URL = "https://rabernat.github.io/aospy-workshop/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://rabernat.github.io/aospy-workshop/"
+# BASE_URL = "https://rabernat.github.io/aospy-workshop/"
 BLOG_EMAIL = "rpa@ldeo.columbia.edu"
 BLOG_DESCRIPTION = "Logistics for the November 2016 xarray / aospy workshop at Columbia University."  # (translatable)
 
