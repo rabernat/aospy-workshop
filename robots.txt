@@ -1,0 +1,4 @@
+Sitemap: http://rabernat.github.io/aospy-workshop/sitemapindex.xml
+
+User-Agent: *
+Host: rabernat.github.io
