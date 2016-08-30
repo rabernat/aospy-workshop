@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Columbia AOSPY Workshop</title><link>https://rabernat.github.io/aospy-workshop/</link><description>Logistics for the November 2016 xarray / aospy workshop at Columbia University.</description><atom:link type="application/rss+xml" rel="self" href="https://rabernat.github.io/aospy-workshop/rss.xml"></atom:link><language>en</language><lastBuildDate>Tue, 30 Aug 2016 13:59:20 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Workshop Registration</title><link>https://rabernat.github.io/aospy-workshop/posts/workshop-registration/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;The Columbia AOSPY workshop will be held Saturday-Sunday, Nov. 5-6 at
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Columbia AOSPY Workshop</title><link>https://rabernat.github.io/aospy-workshop/</link><description>Logistics for the November 2016 xarray / aospy workshop at Columbia University.</description><atom:link rel="self" type="application/rss+xml" href="https://rabernat.github.io/aospy-workshop/rss.xml"></atom:link><language>en</language><lastBuildDate>Tue, 30 Aug 2016 15:07:11 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Workshop Motivation</title><link>https://rabernat.github.io/aospy-workshop/posts/workshop-motivation/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;The purpose of this workshop is to get together "in real life" a group of
+scientists and software developers who have, until now, mostly been interacting
+online. Our group started on the &lt;a class="reference external" href="https://groups.google.com/d/msgid/xarray/2c3554f8-8b79-4bd5-b77a-b1b693f2e0da%40googlegroups.com."&gt;xarray mailing list&lt;/a&gt;
+and then moved to a &lt;a class="reference external" href="https://aospy.hackpad.com"&gt;hackpad&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The motivation of this workshop, and the group in general, is to build a toolkit
+for the analysis of ocean and atmosphere general circulation model (GCM) output
+based on &lt;a class="reference external" href="https://xarray.pydata.org"&gt;xarray&lt;/a&gt; and
+&lt;a class="reference external" href="http://dask.pydata.org"&gt;dask&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Quoting from the &lt;a class="reference external" href="https://aospy.hackpad.com/Summary-of-1st-brainstorming-round-lLJ3vXhCk7Z"&gt;summary hackpad&lt;/a&gt;,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Problem: Each group builds on their own (in some cases proprietary)
+infrastructure: NCAR has PyNIO; PCMDI has UV-CDAT; UKMO has Iris. Ideal:
+single "standard" toolkit for analysis, i.e. create for climate-related
+sciences what astropy is for astronomy-related sciences.&lt;/p&gt;
+&lt;p&gt;None of the existing platforms utilize xarray and its amazing netCDF-like
+named dimensions and coordinates.  Given their age, it's safe to assume also
+that none of the aforementioned packages are built from the core (no pun
+intended) to support out-of-core computations.  xarray provides the
+opportunity to do so through dask.  Moreover, through dask-distributed, this
+has the potential of extending straightforwardly from single nodes to across
+nodes, thereby harnessing the full power of large computational clusters that
+many climate researchers have access to.&lt;/p&gt;
+&lt;p&gt;It is our determination that xarray and out-of-core are the future of climate-
+related computation using Python, and conversely that Python is the future of
+climate-related computation.  This puts us in a unique position to introduce a
+set of tools that becomes the community standard and greatly enhances the
+speed and reliability of such computations and therefore of the science
+itself.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/div&gt;</description><guid>https://rabernat.github.io/aospy-workshop/posts/workshop-motivation/</guid><pubDate>Tue, 30 Aug 2016 14:52:40 GMT</pubDate></item><item><title>Workshop Registration</title><link>https://rabernat.github.io/aospy-workshop/posts/workshop-registration/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;The Columbia AOSPY workshop will be held Saturday-Sunday, Nov. 5-6 at
 &lt;a class="reference external" href="http://columbia.edu"&gt;Columbia University&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Please register for the workshop via the google form below. You will have an
 opportunity to request travel support in Section 2 of the form.&lt;/p&gt;
