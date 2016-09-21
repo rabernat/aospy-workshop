@@ -16,9 +16,9 @@ Travel
 Details for travel to Columbia can be found on the `University Travel Portal
 <http://www.campustravel.com/university/columbia/>`__.
 
-**Important: if you
-are receiving travel support, do not book your own travel. We will book it for
-you.**
+**UPDATE: if you
+are receiving travel support, please book your own travel.** You will be reimbursed
+at the workshop.
 
 Tentative Schedule
 ------------------
