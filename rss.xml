@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Columbia AOSPY Workshop</title><link>https://rabernat.github.io/aospy-workshop/</link><description>Logistics for the November 2016 xarray / aospy workshop at Columbia University.</description><atom:link href="https://rabernat.github.io/aospy-workshop/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 31 Aug 2016 14:50:36 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Workshop Logistics</title><link>https://rabernat.github.io/aospy-workshop/posts/workshop-logistics/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;The workshop will be held Saturday and Sunday, November 5-6, at
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Columbia AOSPY Workshop</title><link>https://rabernat.github.io/aospy-workshop/</link><description>Logistics for the November 2016 xarray / aospy workshop at Columbia University.</description><atom:link rel="self" type="application/rss+xml" href="https://rabernat.github.io/aospy-workshop/rss.xml"></atom:link><language>en</language><lastBuildDate>Wed, 21 Sep 2016 13:27:17 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Workshop Logistics</title><link>https://rabernat.github.io/aospy-workshop/posts/workshop-logistics/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;The workshop will be held Saturday and Sunday, November 5-6, at
 &lt;a class="reference external" href="http://www.wikicu.com/Schermerhorn_Hall#Schermerhorn_Extension"&gt;Schermerhorn Hall&lt;/a&gt;
 on the campus of &lt;a class="reference external" href="http://columbia.edu"&gt;Columbia University&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="travel"&gt;
 &lt;h2&gt;Travel&lt;/h2&gt;
 &lt;p&gt;Details for travel to Columbia can be found on the &lt;a class="reference external" href="http://www.campustravel.com/university/columbia/"&gt;University Travel Portal&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Important: if you
-are receiving travel support, do not book your own travel. We will book it for
-you.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE: if you
+are receiving travel support, please book your own travel.&lt;/strong&gt; You will be reimbursed
+at the workshop.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="tentative-schedule"&gt;
 &lt;h2&gt;Tentative Schedule&lt;/h2&gt;
