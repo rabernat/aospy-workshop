@@ -2,7 +2,6 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
 <head>
 <meta charset="utf-8">
-<base href="https://rabernat.github.io/aospy-workshop/">
 <meta name="description" content="Logistics for the November 2016 xarray / aospy workshop at Columbia University.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Columbia AOSPY Workshop</title>
@@ -14,7 +13,7 @@
 <meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://rabernat.github.io/aospy-workshop/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/workshop-logistics/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/preparing-your-code/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -64,7 +63,100 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/workshop-logistics/" class="u-url">Workshop Logistics</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/preparing-your-code/" class="u-url">Preparing your Code</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Ryan Abernathey
+            </span></p>
+            <p class="dateline"><a href="posts/preparing-your-code/" rel="bookmark"><time class="published dt-published" datetime="2016-10-15T21:25:31-04:00" title="2016-10-15 21:25">2016-10-15 21:25</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>In order to make the most out of our workshop, participants are encouraged to
+polish their code as much as possible beforehand. Through our discussions on
+Saturday, we will try to select one or more projects as the target of a coding
+sprint on Sunday. To enable others to effectively contribute to your project,
+try to follow best practices for open source software development. Below is a
+list of recommended practices for participating projects:</p>
+<ul class="simple">
+<li>Hosting on <a class="reference external" href="http://github.org">GitHub</a> to facilitate issues tracking, pull
+requests, etc.</li>
+<li>Comprehensive test suite. Matt Rocklin's
+<a class="reference external" href="http://matthewrocklin.com/blog/work/2016/02/08/tests">blog post on testing</a>
+clearly explains the importance of testing to a scientific software project.
+Without tests, it is effectively impossible for others (or even you) to
+make significant contributions to your code.</li>
+<li>Continuous integration of testing via an online service such as
+<a class="reference external" href="https://travis-ci.org/">Travis CI</a> or <a class="reference external" href="https://circleci.com/">circleci</a>.
+The use of continuous integration really facilitates collaboration, making
+it clear when pull requests break existing functionality.</li>
+<li>
+<a class="reference external" href="http://docs.codecov.io/docs/about-code-coverage#section-what-is-code-coverage">Code coverage</a>
+assesment. Coverage tells you which parts of your code are covered by your
+test suite. Coverage can be integrated with GitHub via services such as
+<a class="reference external" href="https://coveralls.io/">Coveralls</a> and <a class="reference external" href="https://codecov.io/">Codecov</a>.</li>
+<li>Comprehensive documentation. Many modern python packages use
+<a class="reference external" href="posts/preparing-your-code/www.sphinx-doc.org">Sphinx</a> for the documentation, which integrates with
+<a class="reference external" href="http://readthedocs.org/">http://readthedocs.org/</a> via <a class="reference external" href="http://github.org">GitHub</a> hooks.</li>
+<li>Clear specification of dependencies. It's safe to assume that everyone will
+be using Anaconda for package management, so an
+<a class="reference external" href="http://conda.pydata.org/docs/using/envs.html">environment.yml file</a> is
+sufficient to specify your project's dependencies.</li>
+</ul>
+<p>In addition to these general best practices, there are some specific issues
+related to analysis of GCM data. Most of us are aiming for somewhat
+universal tools (i.e. tools compatible with many different models), but in
+practice, we usually have a specific model we focus on and use for testing
+our code. Therefore, participants are highly encouraged to make some sample
+output from their favorite model (i.e. CAM, NEMO, MITgcm, etc.) available
+online in a publicly accessible location. These links will be shared with the
+group. If you don't have the ability to post sample data online, you can
+upload it to the <a class="reference external" href="http://www.ldeo.columbia.edu/campus-services/ldeo-it/file-transfer-ftp">LDEO anonymous incoming FTP server</a> in
+the "aospy" directory.</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/guidelines-for-presentations/" class="u-url">Guidelines for Presentations</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Ryan Abernathey
+            </span></p>
+            <p class="dateline"><a href="posts/guidelines-for-presentations/" rel="bookmark"><time class="published dt-published" datetime="2016-10-15T20:01:06-04:00" title="2016-10-15 20:01">2016-10-15 20:01</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>As discussed in our <a class="reference external" href="https://aospy.hackpad.com">hackpad</a> brainstorming
+session, a major goal of our workshop is to learn what each other is doing in
+order to most efficiently collaborate on building the software tools we need
+and avoid duplicating effort. This is the rationale for having individual
+presentations.</p>
+<p>Presentations should be <em>15 minutes long</em> with <em>5 minutes for questions</em>. Your
+presentation may cover whatever aspect of your work you feel is most relevant
+to the <a class="reference external" href="https://aospy.hackpad.com/Summary-of-1st-brainstorming-round-lLJ3vXhCk7Z">goals of the workshop</a>.
+For example, you might present an overview of the xarray-based python package
+you have developed for analyzing GCM output. Or you could talk about a
+particular computational challenge you want to solve to reach your
+scientific aims.</p>
+<p>Here are some suggestions to make the most out of our individual presentations.</p>
+<ul class="simple">
+<li>Keep in mind that we have an <em>audience with many different backgrounds</em> at
+this workshop, from atmospheric scientists, to oceanographers, to hydrologists,
+to physicists-turned-software-developers. Within these categories, experience
+levels also vary widely. Keep your presentation simple, clearly introducing
+unfamiliar concepts, acronyms, jargon, etc.</li>
+<li>If you present on an analysis package, clearly state <em>what problem your
+software aims to solve</em>. If you present on a specific model or scientific
+problem, clearly state <em>what obstacles you face</em> in accomplishing your
+scientific goals.</li>
+<li>Upload your presentation to the web somewhere
+(e.g. <a class="reference external" href="http://www.slideshare.net/">slideshare</a>) so others can easily
+review it.</li>
+</ul>
+<p>You may prepare your presentation in powerpoint, keynote, PDF format, or
+online slideshow. We will try to load all the presentations onto one laptop
+to save time, but since the workshop is small, we will be flexible about this.</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/workshop-logistics/" class="u-url">Workshop Logistics</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                 Ryan Abernathey

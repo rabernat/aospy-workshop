@@ -1,5 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Columbia AOSPY Workshop</title><link>https://rabernat.github.io/aospy-workshop/</link><description>Logistics for the November 2016 xarray / aospy workshop at Columbia University.</description><atom:link rel="self" type="application/rss+xml" href="https://rabernat.github.io/aospy-workshop/rss.xml"></atom:link><language>en</language><lastBuildDate>Wed, 21 Sep 2016 13:27:17 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Workshop Logistics</title><link>https://rabernat.github.io/aospy-workshop/posts/workshop-logistics/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;The workshop will be held Saturday and Sunday, November 5-6, at
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Columbia AOSPY Workshop</title><link>https://rabernat.github.io/aospy-workshop/</link><description>Logistics for the November 2016 xarray / aospy workshop at Columbia University.</description><atom:link href="https://rabernat.github.io/aospy-workshop/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 16 Oct 2016 02:07:37 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Preparing your Code</title><link>https://rabernat.github.io/aospy-workshop/posts/preparing-your-code/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;In order to make the most out of our workshop, participants are encouraged to
+polish their code as much as possible beforehand. Through our discussions on
+Saturday, we will try to select one or more projects as the target of a coding
+sprint on Sunday. To enable others to effectively contribute to your project,
+try to follow best practices for open source software development. Below is a
+list of recommended practices for participating projects:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Hosting on &lt;a class="reference external" href="http://github.org"&gt;GitHub&lt;/a&gt; to facilitate issues tracking, pull
+requests, etc.&lt;/li&gt;
+&lt;li&gt;Comprehensive test suite. Matt Rocklin's
+&lt;a class="reference external" href="http://matthewrocklin.com/blog/work/2016/02/08/tests"&gt;blog post on testing&lt;/a&gt;
+clearly explains the importance of testing to a scientific software project.
+Without tests, it is effectively impossible for others (or even you) to
+make significant contributions to your code.&lt;/li&gt;
+&lt;li&gt;Continuous integration of testing via an online service such as
+&lt;a class="reference external" href="https://travis-ci.org/"&gt;Travis CI&lt;/a&gt; or &lt;a class="reference external" href="https://circleci.com/"&gt;circleci&lt;/a&gt;.
+The use of continuous integration really facilitates collaboration, making
+it clear when pull requests break existing functionality.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://docs.codecov.io/docs/about-code-coverage#section-what-is-code-coverage"&gt;Code coverage&lt;/a&gt;
+assesment. Coverage tells you which parts of your code are covered by your
+test suite. Coverage can be integrated with GitHub via services such as
+&lt;a class="reference external" href="https://coveralls.io/"&gt;Coveralls&lt;/a&gt; and &lt;a class="reference external" href="https://codecov.io/"&gt;Codecov&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Comprehensive documentation. Many modern python packages use
+&lt;a class="reference external" href="https://rabernat.github.io/aospy-workshop/posts/preparing-your-code/www.sphinx-doc.org"&gt;Sphinx&lt;/a&gt; for the documentation, which integrates with
+&lt;a class="reference external" href="http://readthedocs.org/"&gt;http://readthedocs.org/&lt;/a&gt; via &lt;a class="reference external" href="http://github.org"&gt;GitHub&lt;/a&gt; hooks.&lt;/li&gt;
+&lt;li&gt;Clear specification of dependencies. It's safe to assume that everyone will
+be using Anaconda for package management, so an
+&lt;a class="reference external" href="http://conda.pydata.org/docs/using/envs.html"&gt;environment.yml file&lt;/a&gt; is
+sufficient to specify your project's dependencies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In addition to these general best practices, there are some specific issues
+related to analysis of GCM data. Most of us are aiming for somewhat
+universal tools (i.e. tools compatible with many different models), but in
+practice, we usually have a specific model we focus on and use for testing
+our code. Therefore, participants are highly encouraged to make some sample
+output from their favorite model (i.e. CAM, NEMO, MITgcm, etc.) available
+online in a publicly accessible location. These links will be shared with the
+group. If you don't have the ability to post sample data online, you can
+upload it to the &lt;a class="reference external" href="http://www.ldeo.columbia.edu/campus-services/ldeo-it/file-transfer-ftp"&gt;LDEO anonymous incoming FTP server&lt;/a&gt; in
+the "aospy" directory.&lt;/p&gt;&lt;/div&gt;</description><guid>https://rabernat.github.io/aospy-workshop/posts/preparing-your-code/</guid><pubDate>Sun, 16 Oct 2016 01:25:31 GMT</pubDate></item><item><title>Guidelines for Presentations</title><link>https://rabernat.github.io/aospy-workshop/posts/guidelines-for-presentations/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;As discussed in our &lt;a class="reference external" href="https://aospy.hackpad.com"&gt;hackpad&lt;/a&gt; brainstorming
+session, a major goal of our workshop is to learn what each other is doing in
+order to most efficiently collaborate on building the software tools we need
+and avoid duplicating effort. This is the rationale for having individual
+presentations.&lt;/p&gt;
+&lt;p&gt;Presentations should be &lt;em&gt;15 minutes long&lt;/em&gt; with &lt;em&gt;5 minutes for questions&lt;/em&gt;. Your
+presentation may cover whatever aspect of your work you feel is most relevant
+to the &lt;a class="reference external" href="https://aospy.hackpad.com/Summary-of-1st-brainstorming-round-lLJ3vXhCk7Z"&gt;goals of the workshop&lt;/a&gt;.
+For example, you might present an overview of the xarray-based python package
+you have developed for analyzing GCM output. Or you could talk about a
+particular computational challenge you want to solve to reach your
+scientific aims.&lt;/p&gt;
+&lt;p&gt;Here are some suggestions to make the most out of our individual presentations.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Keep in mind that we have an &lt;em&gt;audience with many different backgrounds&lt;/em&gt; at
+this workshop, from atmospheric scientists, to oceanographers, to hydrologists,
+to physicists-turned-software-developers. Within these categories, experience
+levels also vary widely. Keep your presentation simple, clearly introducing
+unfamiliar concepts, acronyms, jargon, etc.&lt;/li&gt;
+&lt;li&gt;If you present on an analysis package, clearly state &lt;em&gt;what problem your
+software aims to solve&lt;/em&gt;. If you present on a specific model or scientific
+problem, clearly state &lt;em&gt;what obstacles you face&lt;/em&gt; in accomplishing your
+scientific goals.&lt;/li&gt;
+&lt;li&gt;Upload your presentation to the web somewhere
+(e.g. &lt;a class="reference external" href="http://www.slideshare.net/"&gt;slideshare&lt;/a&gt;) so others can easily
+review it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You may prepare your presentation in powerpoint, keynote, PDF format, or
+online slideshow. We will try to load all the presentations onto one laptop
+to save time, but since the workshop is small, we will be flexible about this.&lt;/p&gt;&lt;/div&gt;</description><guid>https://rabernat.github.io/aospy-workshop/posts/guidelines-for-presentations/</guid><pubDate>Sun, 16 Oct 2016 00:01:06 GMT</pubDate></item><item><title>Workshop Logistics</title><link>https://rabernat.github.io/aospy-workshop/posts/workshop-logistics/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;The workshop will be held Saturday and Sunday, November 5-6, at
 &lt;a class="reference external" href="http://www.wikicu.com/Schermerhorn_Hall#Schermerhorn_Extension"&gt;Schermerhorn Hall&lt;/a&gt;
 on the campus of &lt;a class="reference external" href="http://columbia.edu"&gt;Columbia University&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="travel"&gt;
