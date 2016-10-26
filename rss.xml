@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Columbia AOSPY Workshop</title><link>https://rabernat.github.io/aospy-workshop/</link><description>Logistics for the November 2016 xarray / aospy workshop at Columbia University.</description><atom:link href="https://rabernat.github.io/aospy-workshop/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 26 Oct 2016 02:34:08 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Workshop Program</title><link>https://rabernat.github.io/aospy-workshop/posts/workshop-program/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;Here is the full list of presenters and talk titles&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Columbia AOSPY Workshop</title><link>https://rabernat.github.io/aospy-workshop/</link><description>Logistics for the November 2016 xarray / aospy workshop at Columbia University.</description><atom:link href="https://rabernat.github.io/aospy-workshop/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 26 Oct 2016 15:22:10 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Workshop Program</title><link>https://rabernat.github.io/aospy-workshop/posts/workshop-program/</link><dc:creator>Ryan Abernathey</dc:creator><description>&lt;div&gt;&lt;p&gt;Here is the full list of presenters and talk titles&lt;/p&gt;
 &lt;div class="section" id="saturday-nov-5"&gt;
 &lt;h2&gt;Saturday, Nov. 5&lt;/h2&gt;
 &lt;table border="1" class="docutils"&gt;
@@ -56,12 +56,12 @@
 &lt;td&gt;&lt;a class="reference external" href="https://github.com/JoyMonteiro/CliMT"&gt;Data management à la GOAT&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;11:45-12:00&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external" href="http://joehamman.com/"&gt;Joe Hamman&lt;/a&gt;, University of Washington&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external" href="http://joehamman.com/"&gt;Joe Hamman&lt;/a&gt;, University of Washington &amp;amp; NCAR&lt;/td&gt;
 &lt;td&gt;&lt;a class="reference external" href="http://xarray.pydata.org"&gt;xarray applications in hydroclimatology&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;12:00-12:15&lt;/td&gt;
 &lt;td&gt;&lt;a class="reference external" href="http://www.atmos.albany.edu/facstaff/brose/"&gt;Brian Rose&lt;/a&gt;, University at Albany&lt;/td&gt;
-&lt;td&gt;&lt;a class="reference external" href="http://climlab.readthedocs.io"&gt;Climlab&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a class="reference external" href="http://climlab.readthedocs.io"&gt;Climlab: a Python toolkit for interactive, process-oriented climate modeling&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;12:15-12:30&lt;/td&gt;
 &lt;td&gt;&lt;a class="reference external" href="https://staff.ucar.edu/users/kpaul"&gt;Kevin Paul&lt;/a&gt;, NCAR&lt;/td&gt;
